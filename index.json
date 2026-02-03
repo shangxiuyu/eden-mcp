@@ -2,11 +2,9 @@
     {
         "id": "sqlite",
         "name": "SQLite",
-        "description": "Powerful database interface for querying and managing SQLite databases directly.",
+        "description": "强大的数据库接口，可直接查询和管理 SQLite 数据库。",
         "publisher": "Model Context Protocol",
         "version": "0.1.0",
-        "rating": 4.8,
-        "downloads": 1200,
         "tags": [
             "database",
             "sql"
@@ -16,11 +14,9 @@
     {
         "id": "github",
         "name": "GitHub",
-        "description": "Official GitHub integration. Search repositories, read code, manage issues and PRs.",
+        "description": "官方 GitHub 集成。搜索仓库、读取代码、管理 Issue 和 PR。",
         "publisher": "Model Context Protocol",
         "version": "0.4.0",
-        "rating": 4.9,
-        "downloads": 5500,
         "tags": [
             "developer",
             "version-control"
@@ -30,15 +26,73 @@
     {
         "id": "filesystem",
         "name": "Filesystem",
-        "description": "Secure file system access. Read, write and manage files in allowed directories.",
+        "description": "安全的文件系统访问。在允许的目录中读取、写入和管理文件。",
         "publisher": "Model Context Protocol",
         "version": "1.0.0",
-        "rating": 5.0,
-        "downloads": 8000,
         "tags": [
             "system",
             "utility"
         ],
         "icon": "Files"
+    },
+    {
+        "id": "brave-search",
+        "name": "Brave Search",
+        "description": "Privacy-focused web search directly from your agent.",
+        "publisher": "Brave",
+        "version": "0.1.0",
+        "tags": [
+            "search",
+            "web"
+        ],
+        "icon": "Search"
+    },
+    {
+        "id": "puppeteer",
+        "name": "Puppeteer",
+        "description": "Browser automation for web scraping and testing.",
+        "publisher": "Model Context Protocol",
+        "version": "0.1.0",
+        "tags": [
+            "browser",
+            "automation"
+        ],
+        "icon": "Globe"
+    },
+    {
+        "id": "slack",
+        "name": "Slack",
+        "description": "Send messages, read channels, and manage Slack workspace interaction.",
+        "publisher": "Slack",
+        "version": "0.1.0",
+        "tags": [
+            "communication",
+            "productivity"
+        ],
+        "icon": "MessageSquare"
+    },
+    {
+        "id": "google-maps",
+        "name": "Google Maps",
+        "description": "Access location data, directions, and place details.",
+        "publisher": "Google",
+        "version": "0.1.0",
+        "tags": [
+            "location",
+            "utility"
+        ],
+        "icon": "MapPin"
+    },
+    {
+        "id": "caiyun-weather",
+        "name": "Caiyun Weather (彩云天气)",
+        "description": "High-precision real-time weather information for China.",
+        "publisher": "Caiyun",
+        "version": "0.1.0",
+        "tags": [
+            "weather",
+            "china"
+        ],
+        "icon": "CloudSun"
     }
 ]
