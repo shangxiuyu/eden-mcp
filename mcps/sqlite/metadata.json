@@ -18,23 +18,5 @@
             "name": "describe_table",
             "description": "Get schema information for a specific table."
         }
-    ],
-    "requirements": {
-        "env": {
-            "SQLITE_DB_PATH": {
-                "description": "Path to the sqlite database file. Defaults to './data/agentx.db'",
-                "required": false,
-                "default": "./data/agentx.db"
-            }
-        }
-    },
-    "installer": {
-        "command": "npx",
-        "args": [
-            "-y",
-            "@modelcontextprotocol/server-sqlite",
-            "--db-path",
-            "./data/agentx.db"
-        ]
-    }
+    ]
 }

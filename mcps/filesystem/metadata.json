@@ -22,22 +22,5 @@
             "name": "get_file_info",
             "description": "View file size and modification time."
         }
-    ],
-    "requirements": {
-        "env": {
-            "ALLOWED_DIRECTORIES": {
-                "description": "Comma-separated list of absolute paths that the agent can access.",
-                "required": true,
-                "example": "/Users/user/Documents,/Users/user/Projects"
-            }
-        }
-    },
-    "installer": {
-        "command": "npx",
-        "args": [
-            "-y",
-            "@modelcontextprotocol/server-filesystem",
-            "./"
-        ]
-    }
+    ]
 }
