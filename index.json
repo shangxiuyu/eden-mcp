@@ -1,0 +1,44 @@
+[
+    {
+        "id": "sqlite",
+        "name": "SQLite",
+        "description": "Powerful database interface for querying and managing SQLite databases directly.",
+        "publisher": "Model Context Protocol",
+        "version": "0.1.0",
+        "rating": 4.8,
+        "downloads": 1200,
+        "tags": [
+            "database",
+            "sql"
+        ],
+        "icon": "LayoutGrid"
+    },
+    {
+        "id": "github",
+        "name": "GitHub",
+        "description": "Official GitHub integration. Search repositories, read code, manage issues and PRs.",
+        "publisher": "Model Context Protocol",
+        "version": "0.4.0",
+        "rating": 4.9,
+        "downloads": 5500,
+        "tags": [
+            "developer",
+            "version-control"
+        ],
+        "icon": "Github"
+    },
+    {
+        "id": "filesystem",
+        "name": "Filesystem",
+        "description": "Secure file system access. Read, write and manage files in allowed directories.",
+        "publisher": "Model Context Protocol",
+        "version": "1.0.0",
+        "rating": 5.0,
+        "downloads": 8000,
+        "tags": [
+            "system",
+            "utility"
+        ],
+        "icon": "Files"
+    }
+]

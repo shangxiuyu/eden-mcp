@@ -1,0 +1,12 @@
+{
+    "id": "filesystem",
+    "name": "Filesystem",
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-filesystem",
+            "./"
+        ]
+    }
+}

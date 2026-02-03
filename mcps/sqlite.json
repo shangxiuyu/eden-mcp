@@ -1,0 +1,13 @@
+{
+    "id": "sqlite",
+    "name": "SQLite",
+    "installer": {
+        "command": "npx",
+        "args": [
+            "-y",
+            "@modelcontextprotocol/server-sqlite",
+            "--db-path",
+            "./data/agentx.db"
+        ]
+    }
+}
