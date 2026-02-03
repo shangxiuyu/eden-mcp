@@ -22,5 +22,15 @@
             "name": "list_pull_requests",
             "description": "View active pull requests."
         }
-    ]
+    ],
+    "config": {
+        "env": {
+            "GITHUB_PERSONAL_ACCESS_TOKEN": {
+                "label": "GitHub Personal Access Token",
+                "description": "您的 GitHub 个人访问令牌（PAT），需具备 repo 权限。",
+                "link": "https://github.com/settings/tokens",
+                "required": true
+            }
+        }
+    }
 }

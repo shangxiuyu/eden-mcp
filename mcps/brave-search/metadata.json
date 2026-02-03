@@ -15,5 +15,15 @@
             "description": "Search for local businesses and places."
         }
     ],
-    "icon": "Search"
+    "icon": "Search",
+    "config": {
+        "env": {
+            "BRAVE_API_KEY": {
+                "label": "Brave API Key",
+                "description": "Brave Search API Key.",
+                "link": "https://api.search.brave.com/app/dashboard",
+                "required": true
+            }
+        }
+    }
 }

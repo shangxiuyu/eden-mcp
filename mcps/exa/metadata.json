@@ -15,5 +15,15 @@
             "description": "Retrieve clean text content from URLs."
         }
     ],
-    "icon": "Zap"
+    "icon": "Zap",
+    "config": {
+        "env": {
+            "EXA_API_KEY": {
+                "label": "Exa API Key",
+                "description": "Exa API Key (formerly Metaphor).",
+                "link": "https://dashboard.exa.ai/",
+                "required": true
+            }
+        }
+    }
 }

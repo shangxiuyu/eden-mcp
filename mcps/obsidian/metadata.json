@@ -1,23 +1,28 @@
 {
     "id": "obsidian",
     "name": "Obsidian",
-    "version": "1.1.0",
+    "version": "0.1.0",
     "publisher": "BitBonsai",
     "description": "Connect your Obsidian vault as an AI knowledge base.",
-    "full_description": "Turn your Obsidian notes into a queryable knowledge graph for your agent. This server allows the agent to read, search, and update your local markdown notes safely.",
+    "full_description": "Turn your Obsidian vault into a semantic knowledge base. This server allows the agent to read, search, and organize notes within your private Obsidian vault.",
     "tools": [
         {
-            "name": "obsidian_search",
-            "description": "Search notes in the vault."
+            "name": "read_note",
+            "description": "Read a specific note from your vault."
         },
         {
-            "name": "obsidian_read_note",
-            "description": "Read content of a specific note."
-        },
-        {
-            "name": "obsidian_update_note",
-            "description": "Update or create a note."
+            "name": "search_notes",
+            "description": "Search for notes in your vault."
         }
     ],
-    "icon": "FileText"
+    "icon": "Book",
+    "config": {
+        "env": {
+            "OBSIDIAN_VAULT_PATH": {
+                "label": "Obsidian Vault Path",
+                "description": "您的 Obsidian 库的绝对路径 (例如: /Users/username/Documents/MyVault)",
+                "required": true
+            }
+        }
+    }
 }

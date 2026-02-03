@@ -4,20 +4,32 @@
     "version": "0.1.0",
     "publisher": "GitLab",
     "description": "GitLab integration for managing projects, issues, and pipelines.",
-    "full_description": "Powerful integration for GitLab users. This server allows your agent to interact with GitLab repositories, manage issues, handle merge requests, and monitor CI/CD pipelines directly from the chat.",
+    "full_description": "Allow your agent to interact with GitLab. This server provides tools for managing projects, issues, pull requests (merge requests), and pipelines, enabling seamless integration with your GitLab workflows.",
     "tools": [
         {
-            "name": "gitlab_list_projects",
-            "description": "List projects in the GitLab instance."
+            "name": "list_projects",
+            "description": "List your GitLab projects."
         },
         {
-            "name": "gitlab_get_issue",
-            "description": "Get details of a specific issue."
-        },
-        {
-            "name": "gitlab_create_mr",
-            "description": "Create a new merge request."
+            "name": "create_issue",
+            "description": "Create a new issue in a GitLab project."
         }
     ],
-    "icon": "Gitlab"
+    "icon": "Gitlab",
+    "config": {
+        "env": {
+            "GITLAB_PERSONAL_ACCESS_TOKEN": {
+                "label": "GitLab Personal Access Token",
+                "description": "GitLab 个人访问令牌（PAT）",
+                "link": "https://gitlab.com/-/profile/personal_access_tokens",
+                "required": true
+            },
+            "GITLAB_API_URL": {
+                "label": "GitLab API URL",
+                "description": "GitLab API 地址（默认：https://gitlab.com/api/v4）",
+                "default": "https://gitlab.com/api/v4",
+                "required": false
+            }
+        }
+    }
 }
